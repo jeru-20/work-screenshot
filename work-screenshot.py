@@ -5,7 +5,7 @@ import mss
 # 📅 Získání aktuálního data a času
 now = datetime.now()
 folder_name = now.strftime("%Y-%m")  # např. "2025-09"
-file_name = now.strftime("%Y-%m-%d__%H-%M-%S") + ".png"  # např. "30-09-2025_11-23-45.png"
+file_name = now.strftime("%Y-%m-%d__%H-%M-%S") + ".png"
 
 # 📁 Cílová složka
 base_path = r"C:\Users\Rumlar\Documents\_privat\work-screenshots"
